@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Then and Now - People from Ste Catherine Street</title>
+
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" type="text/css" href="style/steCatherineStyle.css">
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>
+		$(function() {
+     
+      		$('.content-image-right>a').ready(function() {
+        	
+        	$('.content-image-right>a').wrap('<figure class="tint"></figure>');
+      		});
+
+      		$('.click-text').hide();
+
+      		$('.content-image-right>a').mouseover(function() {
+				$('.click-text').show();
+				});
+  			$('.content-image-right>a').mouseout(function() {
+				$('.click-text').hide();
+				});
+    	});
+
+    </script>
+
+    <script>
+	
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-57261838-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<script>
+
+		$(function() {
+		  $('a[href*="#"]:not([href="#"])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html, body').animate({
+		          scrollTop: target.offset().top
+		        }, 500);
+		        return false;
+		      }
+		    }
+		  });
+		});
+
+
+	</script>
+
+
+	
+
+</head>
+<body class="main-bg">
+
+	<header id="top">
+		<div class="title-bg">
+			<div class="body-wrapper main-title">
+				<a href="index.html"><img src="images/stecatherinelogo.svg" alt="Then and Now - Ste Catherine Street"></a>
+				<h1>STE CATHERINE STREET</h1>
+			</div>		
+		</div>
+		<div class="sub-title-bg">
+			<p class="body-wrapper sub-title">A little mix of everything in the heart of Montreal</p>		
+		</div>
+	</header>
+
+	<section class="main-content clearfix">
+		<div class="body-wrapper">
+			<div class="left-side">
+				<div class="number-wrapper">	
+					<div class="content-number">1</div>
+					<div class="other-number"><a href="infographic.html">2</a></div>
+					<div class="other-number"><a href="audio-guide.html">3</a></div>
+					<div class="other-number"><a href="printed-article.html">4</a></div>
+					<div class="other-number"><a href="video.html">5</a></div>
+				</div>
+				<div class="content-text text-1">
+					<p>Ste Catherine street is believed to have opened around 1801, or at least having its current name changed in that year. Since then, it has been through over 200 years of evolution, including its shift from a primarily entertainment district, to one of retail and consumer shopping.</p>
+					<p>One may ask, “What is the current, 2014, identity of this commercial thoroughfare”? Well, the answer we have discovered is that it is a collective of many stores, styles, aesthetics and international influence. One can see from end-to-end that the street depicts what Montreal is made out of: diversity.</p>
+					<p>In this visual of 20 field-study images, we can note the many different faces of Ste Catherine (both anthropological and architectural) that build its unique identity. The types of people alone that populate this street are many. We have highlighted 3 major ones and outlined why they may have visited Ste Catherine, what their expectations and purposes were, and what would have surprised them.</p>
+				</div>
+			</div>
+			<div class="content-image-right">
+				<a href="pdf/Ste-Catherine_Pics-Profile_fullRes.pdf" target="_blank"><img src="images/Ste-Catherine_Pics-Profile.jpg" alt="People from Ste Catherine Street on November 2014"></a><p class="click-text">Click on image for high resolution</p>
+			</div>
+
+			<div class="back"><a href="#top"><img src="images/arrowUp.svg"> Top</a></div>
+		</div>
+
+		
+		
+
+		
+
+	</section>
+
+
+	<footer class="site-footer clearfix">
+		<div class="body-wrapper">
+			<div class="course-info">Design and Computation Arts, Concordia University<br>DCART 498K Information Design<br>Fall 2014</div>
+			<div class="team-info">Kimberley Lam<br><a href="https://www.linkedin.com/in/kimberley-lam-shang-leen-560791b7" target="blank"><img src="images/linkedInLogo.svg" alt="LinkedIn"></a></div>
+			<div class="team-info">Maria Julia Guimaraes<br><a href="https://ca.linkedin.com/in/mjguimaraes" target="blank"><img src="images/linkedInLogo.svg" alt="LinkedIn"></a><a href="https://twitter.com/mjuliaguimaraes" target="blank"><img src="images/twitterLogo.svg" alt="Twitter"></a></div>
+			<div class="team-info">Melanie Palapuz<br><a href="https://www.linkedin.com/in/melpalapuz" target="blank"><img src="images/linkedInLogo.svg" alt="LinkedIn"></a></div>
+			<div class="creative-commons"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="images/by-nc-sa.svg" /></a></div>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
